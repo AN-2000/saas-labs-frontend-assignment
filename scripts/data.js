@@ -1,5 +1,5 @@
 const fetchData = async () => {
-  const response = await fetch("../frontend-assignment.json");
+  const response = await fetch("https://raw.githubusercontent.com/saaslabsco/frontend-assignment/refs/heads/master/frontend-assignment.json");
   if (!response.ok) {
     throw new Error(
       "Data couldn't be loaded. Please try again after sometime or contact support at example@support.com."
