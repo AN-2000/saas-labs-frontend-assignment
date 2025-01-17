@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SaaS Labs - Frontend Assignment</title>
-    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/utils.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="app-loader" class="loader absolute-center"></div>
+    <h1 class="text-center main-heading">
+      Your Gateway to Kickstarter's Greatest
+    </h1>
+    <h3 class="text-center sub-heading">
+      Dive into the stats of top-funded projects with ease and style.
+    </h3>
+    <div id="error-widget" class="error-popup card absolute-center hidden">
+      <h2 class="error-heading">Error!</h2>
+      <p class="error-text"></p>
+    </div>
+    <div id="data-table" class="card table-container horizontal-center hidden">
+      <table class="text-left">
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Percentage Funded</th>
+            <th>Amount Pledged</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="pagination" class="pagination-container">
+        <button class="button first-button" disabled>First</button>
+        <button class="button next-button" disabled>Next</button>
+        <input type="text" class="page-input text-center" disabled />
+        <button class="button prev-button" disabled>Previous</button>
+        <button class="button last-button" disabled>Last</button>
+      </div>
+    </div>
+    <script type="module" src="./scripts/domRefs.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/render.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
 </html>

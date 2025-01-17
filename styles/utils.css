@@ -1,0 +1,26 @@
+.absolute-center {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
+
+.horizontal-center {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
