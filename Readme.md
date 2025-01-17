@@ -49,3 +49,11 @@ Use the web API (link : https://raw.githubusercontent.com/saaslabsco/frontend-as
 
 1. Result on platforms like codesandbox, replit are not accepted. 
 1. Private unaccessible links will lead to rejection.
+
+## Final
+
+<img width="1420" alt="Screenshot 2025-01-18 at 4 29 40 AM" src="https://github.com/user-attachments/assets/5344bf9c-4919-4f15-a06a-ca61cdf48919" />
+<img width="404" alt="Screenshot 2025-01-18 at 4 28 06 AM" src="https://github.com/user-attachments/assets/9f00f9c9-a8eb-44a3-93bf-547575bfb2cd" />
+
+
+
