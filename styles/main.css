@@ -42,7 +42,11 @@ body {
 th,
 td {
   border-bottom: 1px solid var(--theme);
-  padding: 16px 64px;
+  padding: 16px;
+}
+
+table {
+  width: 100%;
 }
 
 table tr:last-child td {
@@ -52,6 +56,13 @@ table tr:last-child td {
 .table-container {
   display: inline-block;
   padding: 8px;
+  width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .table-container {
+    width: 80%;
+  }
 }
 
 .main-heading {
@@ -108,4 +119,3 @@ table tr:last-child td {
   background-color: var(--theme);
   pointer-events: none;
 }
-
